@@ -8,7 +8,7 @@ import java.util.Properties;
 public class MySQL {
 
 	public static Connection getConnection() {
-	    try {
+		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Properties properties = new Properties();
 			properties.put("user", "epam");
