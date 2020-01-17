@@ -13,8 +13,6 @@ import rest.entity.EntityUser;
 
 public class RepositoryUser {
 
-
-
 	public boolean createUser(EntityUser user) {
 		try(Connection connection = MySQL.getConnection()) {
 			if(connection == null) {
